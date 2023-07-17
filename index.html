@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prego Cafe Barista Club</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo-container">
+      <a href="/"><img src="./media/white-logo.png" alt="logo" width="150px"></a>
+    </div>
+  </header>
+
+  <nav class="navbar sticky-top navbar-expand-xl">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse show" id="navbarWithDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Nuestro Menú
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Café</a></li>
+              <li><a class="dropdown-item" href="#">Desayunos</a></li>
+              <li><a class="dropdown-item" href="#">Delizcias Prego</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Cursos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre Nosotros</a>
+          </li>
+          <li class="lang-sel">
+              <label class="lang en">EN</label>
+              <label class="switch">
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+              </label>
+              <label class="lang es">ES</label>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Inicio Pie de Pagina-->
+  <footer>
+    <div class="footer-container">
+      <h2>Donde Estamos</h2>
+      <div id="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3640.4322563248356!2d-110.32327948917337!3d24.1565687783054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86afd3123b02518b%3A0x99d9f2f56ff4a7e0!2sPrego%20Cafe%20cultural!5e0!3m2!1ses!2ses!4v1689616067550!5m2!1ses!2ses"
+          width="400" height="300" style="border:0; border-radius: 10px;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+      <h2>Seguinos!</h2>
+      <!-- Logo Instagram-->
+      <a href="https://www.instagram.com/pregocafe.bcs" target="_blank"><img src="./media/instagram.png" alt="instagram"
+          width="40" height="40" class="social"></a>
+      <h3>All Rights Reserved</h3>
+    </div>
+    <!-- Logo WhatsApp-->
+    <a href="https://api.whatsapp.com/send?phone=+526121170249&text=Hola, me envias info!" target="_blank"><img
+        src="media/whatsapp.png" alt="whatsapp" width="60" height="60" class="whats"></a>
+  </footer>
+  <!-- Fin Pie de Pagina-->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
